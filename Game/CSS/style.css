@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0b0d19;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 154, 228, 0.6);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 8rem;
+    margin: 2rem 0;
+    font-family:"Montserrat", sans-serif;
+}
+
+li, a, button{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-list li a{
+    transition: all 1s ease 0s;
+}
+
+.nav-list li a:hover{
+    color: #009ae4;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 154, 228, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 154, 228, 0.8);
+}
+
