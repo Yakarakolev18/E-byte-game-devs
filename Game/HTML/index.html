@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <title>E-Byte</title>
 </head>
 <body>
@@ -15,13 +16,9 @@
                     </li>
 
                     <li>
-                        <a href="../HTML/aboutus.html">About us</a>
+                        <a href="../HTML/index2.html">About us</a>
                     </li>
-
-                    <li>
-                        <a href="../HTML/partnerss.html">Patners</a>
-                    </li>
-
+                    
                     <li>
                         <a href="../HTML/games.html">Games</a>
                     </li>
@@ -30,10 +27,27 @@
             <a href="../HTML/signin.html"><button>My Account</button></a>
     </header>
         
-    <section class="hero">
-        <div class="text">
-            <h1>Welcome to E-byte's gaming platform</h1>
-        </div>
+    <section>
+            <div class="text">
+                <div class="welcome">
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="900">Welcome </li>
+                    <li data-aos="fade-up" data-aos-duration="1200">to </li>
+                    <li data-aos="fade-up" data-aos-duration="1500">E-byte's</li>
+                    <li data-aos="fade-up" data-aos-duration="1700">gaming</li>
+                    <li data-aos="fade-up" data-aos-duration="1900">platform</li>
+                </ul>
+                </div>
+            </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:50,
+            duration: 1000
+        
+        });
+    </script>
 </body>
 </html>

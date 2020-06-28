@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*,
-*::before,
-*::after{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,10 +35,6 @@ header{
     padding: 0px 20px;
 }
 
-.nav-list li a{
-    transition: all 0.3s ease 0s;
-}
-
 .nav-list li a:hover{
     color: #009ae4;
 }
@@ -51,7 +45,6 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
 }
 
 button:hover {
@@ -66,6 +59,7 @@ body{
     background-position: center;
     font-family: sans-serif;
 }
+
 .login-box{
     width: 320px;
     height: 420px;
@@ -78,6 +72,7 @@ body{
     box-sizing: border-box;
     padding: 70px 30px;
 }
+
 .avatar{
     width: 100px;
     height: 100px;
@@ -86,21 +81,25 @@ body{
     top: -50px;
     left: calc(50% - 50px);
 }
+
 h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
+
 .login-box p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
+
 .login-box input{
     width: 100%;
     margin-bottom: 20px;
 }
+
 .login-box input[type="text"], input[type="password"]
 {
     border: none;
