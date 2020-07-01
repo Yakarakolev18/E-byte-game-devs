@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0b0d19;
 }
 
 html{
@@ -11,8 +10,9 @@ html{
     font-size: 10px;
 }
 
-body{
+body {
     overflow-x: hidden;
+    background-color: #0b0d19;
 }
 
 .text{
@@ -100,7 +100,7 @@ height: 100vh;
 }
 
 section h1{
-font-size: 4rem;
+font-size: 10rem;
 color:rgba(0, 154, 228, 0.6);
 margin-top: 20%;
 }
@@ -108,7 +108,7 @@ margin-top: 20%;
 section p{
     margin-left:70px;
     margin-right:70px;
-    font-size: 1.5rem;
+    font-size: 5rem;
     color:#862fde;
 }
 
@@ -125,6 +125,14 @@ section p{
 .ptext .border{
     background-color:#009ae4;
     padding:20px;
+}
+
+.list > li {
+    list-style-type: none;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 5rem;
+    color: #862fde;
 }
 
 

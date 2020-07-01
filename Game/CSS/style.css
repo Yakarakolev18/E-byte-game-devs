@@ -15,7 +15,7 @@ body{
     overflow-x: hidden;
 }
 
-.text{
+.text {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -23,13 +23,15 @@ body{
     transform: translate(-50%, -50%);
     color: rgba(0, 154, 228, 0.6);
     text-align: center;
+    z-index: 8;
 }
 
-.text h1{
-    font-size: 8rem;
-    margin: 2rem 0;
-    font-family:"Montserrat", sans-serif;
-}
+    .text h1 {
+        font-size: 8rem;
+        margin: 2rem 0;
+        font-family: "Montserrat", sans-serif;
+        z-index: 8;
+    }
 
 li, a, button{
     font-family:"Montserrat", sans-serif;
@@ -37,51 +39,133 @@ li, a, button{
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    z-index: 8;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
+    z-index: 8;
 }
 
-.nav-list{
+.nav-list {
     list-style: none;
+   z-index: 8;
 }
 
-.nav-list li{
-    display: inline-block;
-    padding: 0px 20px;
-}
+    .nav-list li {
+        display: inline-block;
+        padding: 0px 20px;
+       z-index: 8;
+    }
 
 .nav-list li a:hover{
     color: #009ae4;
 }
 
-button{
+button {
     padding: 9px 25px;
     background-color: rgba(0, 154, 228, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+   z-index: 8;
 }
 
 button:hover {
     background-color: rgba(0, 154, 228, 0.8);
 }
 
-.welcome ul{
+.welcome ul {
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: center;
+   z-index: 8;
+}
+
+    .welcome ul li {
+        font-family: "Montserrat", sans-serif;
+        font-size: 70px;
+        padding: 10px;
+        color: rgba(0, 154, 228, 0.6);
+       z-index: 8;
+    }
+
+  /*yes, I do want to die*/
+    .v-header{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
   }
- 
-  .welcome ul li{
-    font-family:"Montserrat", sans-serif;
-    font-size: 70px;
-    padding: 10px;
-    color:rgba(0, 154, 228, 0.6);
+  
+  .container{
+    max-width:960px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align:center;
+  }
+
+  .container1{
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align:center;
+  }
+  
+  .fullscreen-video-wrap{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    z-index: 2;
+  }
+  
+  .fullscreen-video-wrap video{
+    min-height:100%;
+    min-width:100%;
+  }
+  
+  .header-overlay{
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    z-index:3;
+    background:#225470;
+    opacity:0.25;
+  }
+  
+  .header-content{
+    z-index:4;
+  }
+  
+  .header-content h1{
+    font-size:80px;
+    margin-bottom:0;
+  }
+  
+  .header-content p{
+    font-size:2rem;
+    display:block;
+    padding-bottom:2rem;
+  }
+
+  .section{
+    padding:20px 0;
+  }
+  
+  .section-b{
+    width: 100%;
+    margin: 0;
+    background:black;
+    color:#fff;
   }
 
