@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0b0d19;
 }
 
 html{
@@ -12,7 +11,8 @@ html{
 }
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
+    background-color: #0b0d19;
 }
 
 .text {
@@ -39,7 +39,7 @@ li, a, button{
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-    z-index: 8;
+    z-index: 12;
 }
 
 header {
@@ -47,35 +47,22 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    z-index: 8;
+    z-index: 12;
 }
 
 .nav-list {
     list-style: none;
-   z-index: 8;
+   z-index: 12;
 }
 
     .nav-list li {
         display: inline-block;
         padding: 0px 20px;
-       z-index: 8;
+       z-index: 12;
     }
 
 .nav-list li a:hover{
     color: #009ae4;
-}
-
-button {
-    padding: 9px 25px;
-    background-color: rgba(0, 154, 228, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-   z-index: 8;
-}
-
-button:hover {
-    background-color: rgba(0, 154, 228, 0.8);
 }
 
 .welcome ul {
@@ -119,12 +106,12 @@ button:hover {
   
   .fullscreen-video-wrap{
     position:absolute;
-    top:0;
+    top:60px;
     left:0;
     width:100%;
     height:100vh;
     overflow:hidden;
-    z-index: 2;
+    z-index: 0;
   }
   
   .fullscreen-video-wrap video{
@@ -135,7 +122,7 @@ button:hover {
   .header-overlay{
     height:100vh;
     position: absolute;
-    top:0;
+    top:60px;
     left:0;
     width:100vw;
     z-index:3;

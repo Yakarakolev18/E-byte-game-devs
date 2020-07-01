@@ -89,6 +89,33 @@ height: 100vh;
 .hero{
     height: 100%;
     width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero1{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero2{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero3{
+    height: 100%;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/image.jpg);
     background-position: center;
     background-size: cover;
