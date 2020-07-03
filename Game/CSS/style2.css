@@ -61,19 +61,19 @@ header{
 }
 
 .nav-list li a:hover{
-    color: #009ae4;
+    color: rgba(84, 150, 10, 0.8);
 }
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0, 154, 228, 1);
+    background-color: rgba(84, 150, 10, 0.8);
     border: none;
     border-radius: 50px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgba(0, 154, 228, 0.8);
+    background-color: rgba(84, 150, 10, 1);
 }
 
 section {
@@ -89,7 +89,7 @@ height: 100vh;
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/106578446_300325561013365_7046264415031439044_n.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -98,7 +98,7 @@ height: 100vh;
 .hero1{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/106454541_2620759761504884_2125030791419021028_n.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -107,7 +107,7 @@ height: 100vh;
 .hero2{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/106457638_924586758010043_3089728841645027644_n.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -116,7 +116,7 @@ height: 100vh;
 .hero3{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/106714515_3139778189446848_3681440042952900700_n.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -128,7 +128,7 @@ height: 100vh;
 
 section h1{
 font-size: 10rem;
-color:rgba(0, 154, 228, 0.6);
+color:rgba(84, 150, 10, 0.6);
 margin-top: 20%;
 }
 
@@ -136,7 +136,7 @@ section p{
     margin-left:70px;
     margin-right:70px;
     font-size: 5rem;
-    color:#862fde;
+    color:rgba(119, 117, 13, 0.6);
 }
 
 .ptext{
@@ -144,7 +144,7 @@ section p{
     top:50%;
     width:100%;
     text-align:center;
-    color:#862fde;
+    color:rgba(119, 117, 13, 0.6);
     font-size:27px;
     letter-spacing:8px;
 }
@@ -159,7 +159,7 @@ section p{
     margin-left: 70px;
     margin-right: 70px;
     font-size: 5rem;
-    color: #862fde;
+    color: rgba(119, 117, 13, 0.6);
 }
 
 
